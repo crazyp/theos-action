@@ -20,11 +20,11 @@ inputs:
     default: 'https://github.com/xybp888/iOS-SDKs'
   theos-sdks-branch:
     description: 'Branch of Theos sdks to clone'
-    required: false
-    default: 'main'
+    required: true
+    default: 'master'
   procursus-mirror:
     description: 'Mirror of Procursus to use (on macOS)'
-    required: false
+    required: true
     default: 'https://apt.procurs.us'
 runs:
   using: "composite"
