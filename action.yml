@@ -16,8 +16,8 @@ inputs:
     default: 'master'
   theos-sdks:
     description: 'Where to clone the iOS SDKs from (git URL)'
-    required: false
-    default: 'https://github.com/itsnebulalol/sdks'
+    required: true
+    default: 'https://github.com/xybp888/iOS-SDKs'
   theos-sdks-branch:
     description: 'Branch of Theos sdks to clone'
     required: false
