@@ -25,7 +25,7 @@ inputs:
   procursus-mirror:
     description: 'Mirror of Procursus to use (on macOS)'
     required: false
-    default: 'https://procursus.itsnebula.net/'
+    default: 'https://apt.procurs.us'
 runs:
   using: "composite"
   steps:
